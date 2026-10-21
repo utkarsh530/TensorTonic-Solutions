@@ -41,6 +41,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Masked Causal Attention | Implement scaled dot-product attention with a causal mask that prevents each position from attending to future positions. | https://www.tensortonic.com/problems/pytorch-masked-causal-attention |
 | GRPO Group-Relative Advantage | Normalize rewards within each GRPO group using its mean and standard deviation, including zero-variance handling. | https://www.tensortonic.com/problems/rl-grpo-group-relative-advantage |
 | PPO Clipped Surrogate Objective | Proximal Policy Optimization (PPO) optimizes a clipped surrogate objective that limits how far the new policy may drift from the data-collecting policy. | https://www.tensortonic.com/problems/rl-ppo-clipped-surrogate |
+| Prioritized Experience Replay | Sample replay items from priority-weighted probabilities and compute normalized importance-sampling weights. | https://www.tensortonic.com/problems/rl-prioritized-experience-replay |
 | Implement Sigmoid in NumPy | Implement a vectorized sigmoid activation in NumPy for scalars, lists, vectors, and matrices, including large positive and negative inputs. | https://www.tensortonic.com/problems/sigmoid-numpy |
 | KV Cache Append | Append one autoregressive decoding row to key and value caches in Triton without modifying other cache positions. | https://www.tensortonic.com/problems/triton-kv-append |
 
